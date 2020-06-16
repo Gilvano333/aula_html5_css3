@@ -70,6 +70,13 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+aside {
+    width: 351px;
+    float: right;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
 h1 {
     color: red;
     font-family: fantasy; 
@@ -91,6 +98,42 @@ p {
 /* .logo { 
     width: 30px;
  } */
+
+
+
+/* Formatação de Formulários */
+
+form {
+    padding: 7px;
+    background: #000000;
+    border-radius: 12px;
+}
+
+label { 
+    background: #565656;
+    border-radius: 12px;
+    padding-left: 3px;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer; 
+}
+
+input {
+    padding: 5px;
+    /*width: 125px;*/
+    font-size: 1.0em;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 3px solid #870529;
+}
+
+/* Rodapé */
 
 footer {
     clear: both;
