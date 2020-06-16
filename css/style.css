@@ -1,6 +1,7 @@
 body {
-    background:white;
-    font: 12px "Lucida Grande", "Lucida Sans unicode", Arial, sans-serif;
+    background: url(../img/fundo.png) repeat-x,
+                url(../img/texture.jpg);
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 #container {
