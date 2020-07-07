@@ -148,9 +148,55 @@ aside {
     color: #000;
 }
 
-#lista-noticias li a:hover {
+#lista-noticias li:hover {
     background: #eee;
     cursor: pointer;
+}
+
+/* Tabela */
+
+table {
+    margin-top: 5px;
+    width: 680px;
+    border-collapse: separate;
+    background: blue;
+    border-radius: 12px;
+}
+
+th, td {
+    padding: 10px;
+    border-radius: 12px;
+}
+
+td {
+    background: gray;
+} 
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-radius: 12px;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+    background: yellow;
+}
+
+tr.alternado {
+    background-color: #EFEFEF;
+}
+
+tr:hover {
+    background-color: #C3E6E5;
+}
+
+.numero {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #991212;
 }
 
 
