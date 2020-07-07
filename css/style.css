@@ -72,6 +72,11 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+
+img {
+    border-radius: 8px;
+}
+
 section#apresentacao {
     padding: 10px;
     /*border: 1px solid red;*/
@@ -116,8 +121,27 @@ p#his {
     text-align: center;
 }
 
+h1 {
+    color: red;
+    font-family: fantasy; 
+}
 
+h2 {
+    font-family: fantasy; 
+}
 
+p {
+    font-size: 18px;
+}
+
+.img_padrao {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+/* .logo { 
+    width: 30px;
+ } */
 
 
 aside {
@@ -127,7 +151,40 @@ aside {
     margin-bottom: 20px;
 }
 
+section#capa {
+    padding: auto;
+}
+
+section#caixa {
+    background: #000000;
+    margin-top: 7px;
+    border-radius:12px;
+}
+
+section#video {
+    margin-top: 7px;
+    background: #2F4F4F;
+    border-radius: 12px;
+}
+
+#ler {
+    border-radius: 12px;
+    background: blue;
+    padding: 1px 9px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 /* Formatação de lista de notícias */
+
+
+ul#lista-noticias {
+    list-style: none;
+}
 
 #lista-noticias li {
     padding: 2px;
@@ -198,33 +255,6 @@ tr:hover {
 tr:hover {
     background-color: #991212;
 }
-
-
-
-
-
-h1 {
-    color: red;
-    font-family: fantasy; 
-}
-
-h2 {
-    font-family: fantasy; 
-}
-
-p {
-    font-size: 18px;
-}
-
-.img_padrao {
-    margin-bottom: 20px;
-    width: 300px;
-}
-
-/* .logo { 
-    width: 30px;
- } */
-
 
 
 /* Formatação de Formulários */
