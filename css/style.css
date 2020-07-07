@@ -1,3 +1,5 @@
+
+
 body {
     background: url(../img/fundo.png) repeat-x,
                 url(../img/texture.jpg);
@@ -88,7 +90,7 @@ section#apresentacao {
     text-align: justify;/*  texto alinhado */
 }
 
-h3{
+h3 {
     color: black;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -121,29 +123,6 @@ p#his {
     text-align: center;
 }
 
-h1 {
-    color: red;
-    font-family: fantasy; 
-}
-
-h2 {
-    font-family: fantasy; 
-}
-
-p {
-    font-size: 18px;
-}
-
-.img_padrao {
-    margin-bottom: 20px;
-    width: 300px;
-}
-
-/* .logo { 
-    width: 30px;
- } */
-
-
 aside {
     width: 351px;
     float: right;
@@ -158,7 +137,7 @@ section#capa {
 section#caixa {
     background: #000000;
     margin-top: 7px;
-    border-radius:12px;
+    border-radius: 12px;
 }
 
 section#video {
@@ -174,10 +153,6 @@ section#video {
     margin-left: 260px;
     margin-bottom: 10px;
 }
-
-
-
-
 
 /* Formatação de lista de notícias */
 
