@@ -64,11 +64,61 @@ nav ul li a:hover {
     border-bottom: 1px solid #535858;/*modificar em breve */
 }
 
+
+/* Principal */
 #conteudo {
     width: 710px;
     float: left;
     margin-bottom: 20px;
 }
+
+section#apresentacao {
+    padding: 10px;
+    /*border: 1px solid red;*/
+    background: #5DB9BC;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    text-align: justify;/*  texto alinhado */
+}
+
+h3{
+    color: black;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;/*sombra na letra*/
+}
+
+h3#noty {
+    background: #565656;
+    color: black;
+    text-shadow: none;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+h4#forr, #bah {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: black;
+    background: #565656;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+p#paragrafo {
+    /*text-align: center;*/
+    padding: 3px 6px;
+}
+
+p#his {
+    text-align: center;
+}
+
+
+
+
 
 aside {
     width: 351px;
