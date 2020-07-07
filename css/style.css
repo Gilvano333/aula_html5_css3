@@ -127,6 +127,36 @@ aside {
     margin-bottom: 20px;
 }
 
+/* Formatação de lista de notícias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a p {
+    font-size: 1.0em;
+    color: #000;
+}
+
+#lista-noticias li a:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+
+
+
 h1 {
     color: red;
     font-family: fantasy; 
